@@ -99,7 +99,7 @@ class Rational(object):
     
     def __fixsign(self):
         """
-        Make sure a negative sign is associated with the numberator
+        Make sure a negative sign is associated with the numerator
         """
         if self.denominator < 0:
             self.numerator = -self.numerator
